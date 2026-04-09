@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background: #1f2a37;
+  color: white;
+  padding: 20px;
+}
+
+.chat-item {
+  padding: 10px;
+  background: #2a3947;
+  border-radius: 8px;
+}
+
+/* Chat */
+.chat {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  background: #0f1720;
+  color: white;
+}
+
+.chat-header {
+  padding: 15px;
+  background: #1f2a37;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Messages */
+.message {
+  background: #2a3947;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.message.own {
+  background: #0088cc;
+  margin-left: auto;
+}
+
+/* Buttons */
+.message button {
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  background: #1f2a37;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.chat-footer button {
+  margin-left: 10px;
+  background: #0088cc;
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+.join {
+  margin: auto;
+  text-align: center;
+}
+
+.join input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.join button {
+  padding: 10px 20px;
+}
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background: #1f2a37;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* User block */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Avatar */
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: #0088cc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Username */
+.user-text h3 {
+  margin: 0;
+}
+
+.user-text span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Logout button */
+.logout-btn {
+  padding: 10px;
+  border: none;
+  background: #ff4d4f;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background: #ff2a2a;
+}
