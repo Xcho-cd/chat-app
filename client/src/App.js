@@ -10,7 +10,7 @@ function App() {
   const [isLogin, setIsLogin] = useState(true);
   const [isAuth, setIsAuth] = useState(false);
 
-  const [room, setRoom] = useState("general");
+  const [room] = useState("general");
   const [message, setMessage] = useState("");
   const [chat, setChat] = useState([]);
 
